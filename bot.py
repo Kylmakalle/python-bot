@@ -2,6 +2,8 @@ import telebot
 import os
 
 token = os.environ.get('TELEGRAM_TOKEN', '')
+weather_state = 'weather_state'
+main_state = 'main'
 states = {}
 
 bot = telebot.TeleBot(token)
